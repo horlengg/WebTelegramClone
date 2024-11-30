@@ -5,7 +5,7 @@ import {ref, watchEffect } from 'vue';
 
 const canvasRef = ref<HTMLCanvasElement>()
 const chatStore = useChatStore()
-const getImageUrl = (fileName:string) => `/src/app/assets/images/${fileName}`
+const getImageUrl = (fileName:string) => `/images/${fileName}`
 watchEffect(()=>{
     if(chatStore.currentChatroomDetail && canvasRef.value){
         if(chatStore.currentChatroomDetail.groupLogo || chatStore.currentChatroomDetail.profileUrl) return

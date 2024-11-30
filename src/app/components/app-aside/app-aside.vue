@@ -97,9 +97,10 @@ const getChatHistory = (index:number)=>{
     return chatStore.listChatHistory.filter(e => chatTaps[index].key == e.roomType)
 }
 watchEffect(()=>{
-    if(route.params.chatroomId) {
-        const chatroomId = route.params.chatroomId as string
-        chatStore.currentChatroomDetail = chatStore.listChatHistory?.find(e => e.chatroomId == parseInt(chatroomId))
+    if(route.params.username) {
+        const usernames = (route.params.username as string).split("_")
+        usernames[0] = usernames[0].slice(1)
+        chatStore.currentChatroomDetail = chatStore.listChatHistory?.find(e => !e.groupName ? e.username == usernames.join(".") : e.groupName.toLowerCase() == usernames.join(" ") )
     }
 })
 onMounted(async()=>{
@@ -195,6 +196,7 @@ onMounted(async()=>{
             width: 100%;
             overflow: hidden;
             .user-history-list_item {
+                padding-bottom: 25px;
                 &::-webkit-scrollbar {
                     display: none;
                 }

@@ -14,7 +14,7 @@ const currentUserID = 1
 const props = defineProps<UserHistoryProps>();
 
 const canvasRef = ref<HTMLCanvasElement>()
-const getImageUrl = (fileName:string) => `/src/app/assets/images/${fileName}`
+const getImageUrl = (fileName:string) => `/images/${fileName}`
 const getTitle = ()=>{
     return props.data.roomType === chatroomType.GROUP ? props.data.groupName : props.data.fullName
 }
