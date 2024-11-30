@@ -131,7 +131,7 @@ class AppService {
                         groupName : chat.groupName,
                         fullName : user?.fullName,
                         userId : user?.id,
-                        userName : user?.username,
+                        username : user?.username,
                         profileUrl : user?.profileUrl,
                         activityDate : latesMessage?.sentDate ?? user?.joinDate ?? chat.createdDate,
                         unseenActivityCount:chat.unseenActivityCount,

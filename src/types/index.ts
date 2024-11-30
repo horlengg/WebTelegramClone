@@ -34,7 +34,7 @@ export type UserHistoryType = {
     chatroomId : number,
     groupName : string,
     userId? : number,
-    userName? : string
+    username? : string
     fullName? : string
     profileUrl? : string,
     activityDate? : string,

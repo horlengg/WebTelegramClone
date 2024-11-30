@@ -22,7 +22,10 @@ const getActivityMakerTitle = ()=>{
     if(props.data.userId === currentUserID) return 'You'
     return props.data.fullName?.split(" ").pop()
 }
-
+const getUrlParam = ()=>{
+    const isGroup = props.data.roomType == 'GROUP'
+    return (props.data.groupName || props.data.username)?.split(isGroup ? ' ':'.').join('_').toLowerCase() ?? ''
+}
 
 onMounted(()=>{
     if(props.data.roomType === chatroomType.GROUP){
@@ -38,7 +41,7 @@ onMounted(()=>{
 </script>
 
 <template>
-    <router-link :to="`/k/${data.chatroomId}`">
+    <router-link :to="`/k/@${getUrlParam()}`">
         <div class="user-history flex justify-between items-center cursor-pointer">
             <div class="flex items-center gap-3 flex-[.8] overflow-hidden">
                 <div>
