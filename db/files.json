@@ -1,0 +1,35 @@
+{
+    "status" : 200,
+    "data" : [
+        {
+            "fileUrl" : "/src/app/assets/audio/one-day.mp3",
+            "fileSize" : 12344,
+            "fileType" : "audio/mp3",
+            "id" : 1 
+        },
+        {
+            "fileUrl" : "/src/app/assets/audio/one-day.mp3",
+            "fileSize" : 12344,
+            "fileType" : "audio/mp3" ,
+            "id" : 2
+        },
+        {
+            "fileUrl" : "/src/app/assets/images/user01.jpg",
+            "fileSize" : 12344,
+            "fileType" : "image/jpg" ,
+            "id" : 3
+        },
+        {
+            "fileUrl" : "/src/app/assets/images/user03.jpg",
+            "fileSize" : 12344,
+            "fileType" : "image/jpg" ,
+            "id" : 4
+        },
+        {
+            "fileUrl" : "/src/app/assets/images/user02.jpg",
+            "fileSize" : 12344,
+            "fileType" : "image/jpg" ,
+            "id" : 5
+        }
+    ]
+}

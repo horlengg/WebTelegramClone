@@ -1,0 +1,27 @@
+
+  
+.ripple-effect { 
+    position: absolute; 
+    display: inline-block; 
+    transform: translate(-50%, -50%); 
+    border-radius: 50%; 
+    background-color: #FFF; 
+    pointer-events: none; 
+    animation: __ripples_animated 0.6s linear infinite; 
+} 
+ 
+@keyframes __ripples_animated { 
+    0% { 
+        width: 0; 
+        height: 0; 
+        opacity: 0.5; 
+    } 
+ 
+    100% { 
+        width: 500px; 
+        height: 500px; 
+        opacity: 0; 
+    } 
+} 
+ 
+  

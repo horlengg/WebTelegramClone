@@ -1,0 +1,54 @@
+{
+    "status" : 200,
+    "data" : [
+        {
+            "fullName" : "Ly Houleng",
+            "username" : "ly.houleng",
+            "profileUrl" : "user3.jpg",
+            "id" : 1,
+            "joinDate" : "2021-01-02T00:00:00" 
+        },
+        {
+            "fullName" : "Heng Makara",
+            "username" : "heng.makara",
+            "profileUrl" : "user2.jpg",
+            "id" : 2,
+            "joinDate" : "2019-11-10T00:00:00" 
+        },
+        {
+            "fullName" : "Ning Yao",
+            "username" : "ning.yao",
+            "profileUrl" : "NingYao.jpg",
+            "id" : 3,
+            "joinDate" : "2023-11-10T00:00:00" 
+        },
+        {
+            "fullName" : "Ly Xingyun",
+            "username" : "ly.xingyun",
+            "profileUrl" : "ly-xingyun.webp",
+            "id" : 4,
+            "joinDate" : "2024-11-10T00:00:00" 
+        },
+        {
+            "fullName" : "Yuan Tiangang",
+            "username" : "yuan.tiangang",
+            "profileUrl" : "",
+            "id" : 5,
+            "joinDate" : "2024-10-10T00:00:00" 
+        },
+        {
+            "fullName" : "Ji Ruexie",
+            "username" : "ji.ruexie",
+            "profileUrl" : "",
+            "id" : 6,
+            "joinDate" : "2023-11-10T00:00:00" 
+        },
+        {
+            "fullName" : "Sok Mesa",
+            "username" : "sok.mesa",
+            "profileUrl" : "user3.jpg",
+            "id" : 7,
+            "joinDate" : "2024-03-02T17:00:00" 
+        }
+    ]
+}

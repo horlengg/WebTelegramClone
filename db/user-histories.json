@@ -1,0 +1,11 @@
+{
+    "status" : 200,
+    "data" : [
+        {
+            "userId" : 1,
+            "chatroomId" : 1,
+            "type" : "INDIVIDUAL",
+            "lastMessageId" : 1
+        }
+    ]
+}

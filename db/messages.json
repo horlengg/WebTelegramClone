@@ -1,0 +1,53 @@
+{
+    "status" : 200,
+    "data" : [
+        {
+            "sentById" : 1,
+            "messageText" : "Hello What's up?",
+            "filesId" : [],
+            "caption" : "",
+            "sentDate" : "2024-11-09T17:00:00",
+            "chatroomId" : 7
+        },
+        {
+            "sentById" : 1,
+            "messageText" : "",
+            "filesId" : [1],
+            "caption" : "Voice text",
+            "sentDate" : "2024-11-09T17:11:00",
+            "chatroomId" : 7
+        },
+        {
+            "sentById" : 2,
+            "messageText" : "",
+            "filesId" : [4,5],
+            "caption" : "Hello here is image file!",
+            "sentDate" : "2024-11-09T17:12:00",
+            "chatroomId" : 7
+        },
+        {
+            "sentById" : 4,
+            "messageText" : "Good morning beloved student, Today no class!.",
+            "filesId" : [],
+            "caption" : "",
+            "sentDate" : "2024-11-09T17:08:00",
+            "chatroomId" : 6
+        },
+        {
+            "sentById" : 5,
+            "messageText" : "Dear boos, Today I'll late abit",
+            "filesId" : [],
+            "caption" : "",
+            "sentDate" : "2024-11-09T19:08:00",
+            "chatroomId" : 4
+        },
+        {
+            "sentById" : 3,
+            "messageText" : "How to build blog website using vitepress?",
+            "filesId" : [],
+            "caption" : "",
+            "sentDate" : "2024-10-09T12:08:00",
+            "chatroomId" : 1
+        }
+    ]
+}

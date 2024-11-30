@@ -1,0 +1,45 @@
+{
+    "status" : 200,
+    "data" : [
+        {
+            "flagUrl" : "/src/app/assets/images/cambodia.svg",
+            "countryName" : "Cambodia",
+            "countryCode" : "+885"
+        },
+        {
+            "flagUrl" : "/src/app/assets/images/brazilc.svg",
+            "countryName" : "Brazil",
+            "countryCode" : "+388"
+        },
+        {
+            "flagUrl" : "/src/app/assets/images/canada-logo.svg",
+            "countryName" : "Canada",
+            "countryCode" : "+77"
+        },
+        {
+            "flagUrl" : "/src/app/assets/images/china-2.svg",
+            "countryName" : "China",
+            "countryCode" : "+129"
+        },
+        {
+            "flagUrl" : "/src/app/assets/images/france.svg",
+            "countryName" : "France",
+            "countryCode" : "+883"
+        },
+        {
+            "flagUrl" : "/src/app/assets/images/japan-1.svg",
+            "countryName" : "Japan",
+            "countryCode" : "+001"
+        },
+        {
+            "flagUrl" : "/src/app/assets/images/south-korea.svg",
+            "countryName" : "South Korea",
+            "countryCode" : "+477"
+        },
+        {
+            "flagUrl" : "/src/app/assets/images/usa-4.svg",
+            "countryName" : "United State",
+            "countryCode" : "+99"
+        }
+    ]
+}
